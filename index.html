@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ciência em Quadrinhos - histórias em quadrinhos e mangás para divulgar matemática, física, química, biologia, história e outras áreas do conhecimento." />
+  <title>Ciência em Quadrinhos | Conhecimento em forma de aventura</title>
+  <link rel="icon" href="assets/logo-ciencia-em-quadrinhos.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ciência em Quadrinhos - início">
+        <img src="assets/logo-ciencia-em-quadrinhos.png" alt="Logo Ciência em Quadrinhos" />
+        <span>CIÊNCIA <b>EM</b> QUADRINHOS</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav class="nav" id="mainNav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#colecoes">Coleções</a>
+        <a href="#areas">Áreas</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn-yellow btn-small" href="#colecoes">LER REVISTAS</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">MANGÁS QUE ENSINAM. HISTÓRIAS QUE INSPIRAM.</span>
+          <h1>CONHECIMENTO<br>EM FORMA DE <em>AVENTURA!</em></h1>
+          <p>Revistas em quadrinhos que transformam a história da Matemática, Física, Química, Biologia, História e outras áreas em experiências de leitura inesquecíveis.</p>
+          <div class="hero-actions">
+            <a class="btn btn-yellow" href="#colecoes">CONHEÇA AS COLEÇÕES</a>
+            <a class="btn btn-outline" href="#videos">ASSISTA AOS VÍDEOS</a>
+          </div>
+        </div>
+        <div class="hero-art">
+         
+          <img src="assets/bannerSIte.png" alt="Equipe do projeto representada em estilo mangá" />
+        </div>
+      </div>
+    </section>
+
+    <section class="areas-section" id="areas">
+      <div class="container">
+        <div class="section-head compact">
+          <div>
+            <span class="kicker">NOSSAS ÁREAS</span>
+            <h2>Um universo de conhecimento</h2>
+          </div>
+          <p>Cada área possui uma identidade visual própria, mas todas fazem parte do mesmo universo Ciência em Quadrinhos.</p>
+        </div>
+        <div class="area-grid">
+          <article class="area-card matematica"><span class="area-icon">π</span><strong>MATEMÁTICA</strong><small>Números, lógica e grandes descobertas.</small></article>
+          <article class="area-card fisica"><span class="area-icon">⚛</span><strong>FÍSICA</strong><small>Movimento, energia e leis da natureza.</small></article>
+          <article class="area-card quimica"><span class="area-icon">⚗</span><strong>QUÍMICA</strong><small>Elementos, matéria e transformações.</small></article>
+          <article class="area-card biologia"><span class="area-icon">❧</span><strong>BIOLOGIA</strong><small>Vida, evolução e natureza.</small></article>
+          <article class="area-card historia"><span class="area-icon">🏛</span><strong>HISTÓRIA</strong><small>Pessoas, povos e acontecimentos.</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="collections" id="colecoes">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="kicker">BIBLIOTECA DIGITAL</span>
+            <h2>Leia nossas revistas</h2>
+          </div>
+          <p>Selecione uma publicação e clique em <strong>Ler revista</strong>. O arquivo PDF será aberto em uma nova guia do navegador.</p>
+        </div>
+
+        <div class="filters" aria-label="Filtros da biblioteca">
+          <button class="filter active" data-filter="todas">Todas</button>
+          <button class="filter" data-filter="matematica">Matemática</button>
+          <button class="filter" data-filter="fisica">Física</button>
+          <button class="filter" data-filter="quimica">Química</button>
+          <button class="filter" data-filter="biologia">Biologia</button>
+          <button class="filter" data-filter="historia">História</button>
+          <input id="searchInput" type="search" placeholder="Pesquisar revista..." aria-label="Pesquisar revista" />
+        </div>
+
+        <div class="magazine-grid" id="magazineGrid" aria-live="polite"></div>
+        <p class="empty-state" id="emptyState" hidden>Nenhuma revista encontrada com esse filtro.</p>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="container about-grid">
+        <div class="comic-panel">
+          <span class="speech">CONHECER</span>
+          <span class="speech speech-2">ENTENDER</span>
+          <span class="speech speech-3">TRANSFORMAR!</span>
+          <div class="dots"></div>
+        </div>
+        <div class="about-copy">
+          <span class="kicker">SOBRE O PROJETO</span>
+          <h2>Grandes ideias contadas como grandes histórias</h2>
+          <p><strong>Ciência em Quadrinhos</strong> é um projeto de divulgação do conhecimento por meio de revistas e mangás educativos. A proposta é aproximar estudantes, professores, famílias e curiosos da história das ciências e das humanidades com linguagem visual, narrativa e acessível.</p>
+          <p>O projeto pode crescer continuamente: novas revistas, novos personagens, materiais para professores, vídeos, desafios e conteúdos complementares.</p>
+          <a class="text-link" href="#colecoes">Explorar a biblioteca →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="videos" id="videos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="kicker">VÍDEOS & REDES SOCIAIS</span>
+            <h2>Ideias que ganham movimento</h2>
+          </div>
+          <p>Espaço preparado para incorporar Reels, Shorts, YouTube e bastidores do desenvolvimento das revistas.</p>
+        </div>
+        <div class="video-grid">
+          <article class="video-card blue"><span class="play">▶</span><h3>A HISTÓRIA DA MATEMÁTICA EM MANGÁ</h3><p>Apresente personagens, curiosidades e momentos históricos em vídeos curtos.</p></article>
+          <article class="video-card purple"><span class="play">▶</span><h3>COMO A CIÊNCIA ESTÁ NO SEU DIA A DIA?</h3><p>Conecte conceitos das revistas com situações reais e experiências simples.</p></article>
+          <article class="video-card green"><span class="play">▶</span><h3>GRANDES CIENTISTAS EM HQ</h3><p>Transforme biografias e descobertas em séries semanais para as redes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-grid">
+        <div>
+          <span class="kicker light">FAÇA PARTE DESTA MISSÃO</span>
+          <h2>Leia, compartilhe e ajude o conhecimento a chegar mais longe.</h2>
+        </div>
+        <a class="btn btn-white" href="#contato">ENTRE EM CONTATO</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-ciencia-em-quadrinhos.png" alt="Ciência em Quadrinhos" />
+        <div><strong>CIÊNCIA EM QUADRINHOS</strong><p>Conhecer • Entender • Transformar</p></div>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <p>E-mail: <a href="mailto:cienciaemquadrinhos@gmail.com">cienciaemquadrinhos@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/cienciaemquadrinhosmanga/">@cienciaemquadrinhos</a></p>
+      </div>
+      <div>
+        <h3>Links rápidos</h3>
+        <p><a href="#colecoes">Revistas</a> · <a href="#areas">Áreas</a> · <a href="#sobre">Projeto</a></p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Ciência em Quadrinhos. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="js/revistas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
