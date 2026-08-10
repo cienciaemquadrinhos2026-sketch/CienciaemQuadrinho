@@ -32,11 +32,11 @@ const REVISTAS = [
     areaNome: "Física",
     volume: "Volume 2 - Em breve",
     arquivo: "",
-    descricao: "Uma viagem pela trajetória de Newton e pelas ideias que ajudaram a transformar a Física.",
+    descricao: "Dando continuidade à incrível Coleção História da Matemática e da Ciência, prepare-se para viajar no tempo e explorar a mente de um dos maiores gênios que a humanidade já conheceu. Nesta edição especial, acompanhe a trajetória de Isaac Newton, o cientista que revolucionou a nossa compreensão do cosmos.",
     icone: "⚛",
     cor1: "#58b73b",
     cor2: "#236b2f",
-    capa: ""
+    capa: "assets/IsaacNewton.png"
   },
   {
     titulo: "Arquimedes - Eureka!",
@@ -48,7 +48,7 @@ const REVISTAS = [
     icone: "△",
     cor1: "#1182bf",
     cor2: "#153b86",
-    capa: ""
+    capa: "assets/Arquimedes.png"
   },
   {
     titulo: "Galileu Galilei - Olhos para o Universo",
@@ -60,7 +60,7 @@ const REVISTAS = [
     icone: "✦",
     cor1: "#6542a4",
     cor2: "#271d63",
-    capa: ""
+    capa: "assets/GalileuGalilei.png"
   },
   {
     titulo: "Albert Einstein - Ideias em movimento",
@@ -72,7 +72,7 @@ const REVISTAS = [
     icone: "E=mc²",
     cor1: "#f1a800",
     cor2: "#f16400",
-    capa: ""
+    capa: "assets/AlbertEinsten.png"
   },
   {
     titulo: "Euclides - O mundo da Geometria",
@@ -84,6 +84,6 @@ const REVISTAS = [
     icone: "◇",
     cor1: "#1477bc",
     cor2: "#0c3d74",
-    capa: ""
+    capa: "assets/Euclides.png"
   }
 ];
