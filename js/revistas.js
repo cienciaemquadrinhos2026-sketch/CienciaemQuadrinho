@@ -20,7 +20,7 @@ const REVISTAS = [
     areaNome: "Matemática",
     volume: "Volume 1",
     arquivo: "pdfs/RavistaPitagoras.pdf",
-    descricao: "Publicação demonstrativa para testar a biblioteca digital e a abertura do PDF em uma nova guia.",
+    descricao: "Mergulhe na Coleção História da Matemática, uma série de revistas em mangá que transforma o aprendizado em uma jornada visual, histórica e divertida. Na Edição 1, conheça a fascinante trajetória de Pitágoras: O jovem sábio em busca do conhecimento.",
     icone: "",
     cor1: "#1266c0",
     cor2: "#092d69",
