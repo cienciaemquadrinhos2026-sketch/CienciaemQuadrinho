@@ -15,6 +15,18 @@
 
 const REVISTAS = [
   {
+    titulo: "Lagarto - História e Cultura",
+    area: "historia",
+    areaNome: "História",
+    volume: "Especial 01",
+    arquivo: "pdfs/Lagarto_Hitória_e_Cultura_em_Quadrinhos.pdf",
+    descricao: "Lagarto: História e Cultura em Quadrinho: Embarque em uma viagem pelas histórias, tradições e memórias de Lagarto! Nesta edição especial, os quadrinhos ganham vida para apresentar o patrimônio, a cultura popular, os personagens históricos, a literatura, as festas, os sabores e os lugares que fazem de Lagarto uma cidade tão especial. Uma experiência educativa e divertida para conhecer, valorizar e preservar as nossas raízes. Conheça Lagarto. Conheça nossa história. Valorize nossa cultura. 👇 Clique abaixo e leia a revista completa.",
+    icone: "",
+    cor1: "#1266c0",
+    cor2: "#092d69",
+    capa: "assets/LagaartoCol1.png"
+  },
+    {
     titulo: "Pitágoras - A aventura dos números",
     area: "matematica",
     areaNome: "Matemática",
