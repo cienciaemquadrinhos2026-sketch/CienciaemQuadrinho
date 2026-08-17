@@ -26,6 +26,18 @@ const REVISTAS = [
     cor2: "#092d69",
     capa: "assets/LagaartoCol1.png"
   },
+   {
+    titulo: "RPPNs — Dona Benta e Seu Cabloco",
+    area: "ambiente",
+    areaNome: "Meio Ambiente",
+    volume: "Especial 01",
+    arquivo: "pdfs/DonaBentaeSeuCabloco.pdf",
+    descricao: "🌿 Uma aventura pela natureza, pelo conhecimento e pela conservação! Conheça a RPPN Lagoa Encantada do Morro da Lucrécia em uma jornada ilustrada que revela suas lagoas, dunas, vegetação, biodiversidade e trilhas naturais. Uma revista em mangá que une educação ambiental, turismo consciente e preservação, mostrando que conhecer a natureza é o primeiro passo para valorizá-la e protegê-la. Conhecer. Sentir. Valorizar. Proteger. 👇 Clique abaixo e leia a revista completa.",
+    icone: "",
+    cor1: "#1266c0",
+    cor2: "#092d69",
+    capa: "assets/DonaBentaeSeuCabloco.png"
+  },
     {
     titulo: "Pitágoras - A aventura dos números",
     area: "matematica",
